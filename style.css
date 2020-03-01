@@ -1,20 +1,20 @@
 body{
+	padding:50px;
 	background: #fff;
 }
 
 .user-info{
-	background-color: rgb(221, 247, 247);
-	padding: 30px;
-	margin-top: 50px;
+	padding: 80px;
+	margin: 50px;
 	border-radius: 10px;
-	box-shadow: 5px 5px 10px gray;
+	box-shadow: 3px 3px 10px lightgray;
 }
 
 .cart{
 	margin: 100px 0;
 	background-color: #F6F5FA;;
 	padding: 60px 0;
-	box-shadow: 5px 5px 10px gray;
+	box-shadow: 3px 3px 10px lightgray;
 	display: none;
 }
 .total-price{
@@ -69,19 +69,23 @@ body{
 	background-color: #2FBE70;
 	border: none;
 }
-
 .invoice{
-	background-color: rgb(236, 215, 247);
+	background-color: rgb(250, 250, 250);
 	padding: 70px;
 	margin-top: 50px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px gray;
 	display: none;
 }
+.table{
+	box-shadow: 3px 3px 10px lightgray;
+	margin-bottom: 40px;
+}
 
 .totalDiv{
 	padding: 30px;
-	background-image:linear-gradient(145deg, lightpink, tomato);
+	box-shadow: 3px 3px 10px lightgray;
 	border:5px solid white;
 	border-radius: 10px;
+	margin-bottom: 30px;
 }
